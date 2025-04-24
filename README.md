@@ -14,4 +14,4 @@ O objetivo deste repositório é explorar os principais recursos e funcionalidad
 
 ## Anotações
 
-[Livewire v3 - Notion]([Livewire v3](https://www.notion.so/Livewire-v3-1df178b5effa81bd9299c82b62996bcd?pvs=4))
+[Livewire v3](https://www.notion.so/Livewire-v3-1df178b5effa81bd9299c82b62996bcd?pvs=4)
