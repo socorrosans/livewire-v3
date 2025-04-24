@@ -13,6 +13,11 @@
     </head>
 
     <body class="p-6 font-sans">
+        <main class="max-w-4xl mx-auto">
+            <header class="flex justify-end p-4">
+                @livewire('avatar')
+            </header>
+        </main>
         @livewireScripts
     </body>
 </html>
