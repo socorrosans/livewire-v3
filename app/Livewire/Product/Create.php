@@ -13,13 +13,7 @@ class Create extends Component
 
     public function save(): void
     {
-        $this->validate();
-
-        Product::create(
-            $this->form->all()
-        );
-
-        session()->flash('success', 'Product created successfully!');
+        $this->form->store();
 
         $this->form->reset();
     }

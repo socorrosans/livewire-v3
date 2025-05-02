@@ -16,4 +16,15 @@ class ProductForm extends Form
 
     #[Validate('required|numeric|min:0.01')]
     public float $price = 0;
+
+    public function store(): void
+    {
+        $this->validate();
+
+        Product::create(
+            $this->all()
+        );
+
+        session()->flash('success', 'Product created successfully!');
+    }
 }
