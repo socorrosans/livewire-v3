@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('description');
-            $table->string('sku')->nullable();
             $table->float('price');
 
             $table->timestamps();
