@@ -13,10 +13,14 @@
     </head>
 
     <body class="p-6 font-sans">
-        <main class="max-w-4xl mx-auto">
+        <main class="max-w-4xl mx-auto space-y-6">
             <header class="flex justify-end p-4">
                 @livewire('avatar')
             </header>
+
+            <section>
+                @livewire('product.create')
+            </section>
         </main>
         @livewireScripts
     </body>
