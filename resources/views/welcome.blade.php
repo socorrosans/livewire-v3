@@ -17,6 +17,10 @@
             <header class="flex justify-end p-4">
                 @livewire('avatar')
             </header>
+
+            <section>
+                @livewire('pull-request.all')
+            </section>
         </main>
         @livewireScripts
     </body>
