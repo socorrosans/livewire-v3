@@ -1,5 +1,5 @@
 <div class="space-y-4">
-    <h1 class="font-medium text-3xl mb-10">Criar produto</h1>
+    <h1 class="font-medium text-3xl mb-10">Create product</h1>
 
     <form action="" class="max-w-md" wire:submit="save">
         <div class="flex flex-col gap-2 mb-3">
@@ -20,7 +20,7 @@
             @error('form.price') <span class="text-gray-400 text-sm">{{ $message }}</span> @enderror
         </div>
 
-        <button type="submit" class="btn btn-primary w-xs">Save</button>
+        <button type="submit" class="btn btn-primary w-md">Save</button>
     </form>
 
     @session('success')
