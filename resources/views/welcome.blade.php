@@ -17,10 +17,6 @@
             <header class="flex justify-end p-4">
                 @livewire('avatar')
             </header>
-
-            <section>
-                @livewire('product.create')
-            </section>
         </main>
         @livewireScripts
     </body>
